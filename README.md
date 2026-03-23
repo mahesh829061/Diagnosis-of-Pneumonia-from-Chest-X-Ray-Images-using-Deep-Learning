@@ -7,13 +7,6 @@ A comparative analysis is performed between:
 - **CNN trained from scratch**
 - **Transfer Learning using a pre-trained ResNet50 model**
 
-The project was completed during the **International Internship Pilot Program (IIPP), Taiwan**, at **Chang Gung University**, under the supervision of **Prof. Shu-Yen Wan**.
-
----
-
-## 🧠 Project Pipeline
-![Project Pipeline](images/project_pipeline.png)
-
 ---
 
 ## 🎯 Objectives
@@ -47,7 +40,8 @@ The project was completed during the **International Internship Pilot Program (I
   - `1` → Pneumonia
 
 ### 🖼️ Sample Chest X-Ray Images
-![Dataset Samples](images/dataset_samples.png)
+<img width="1481" height="1119" alt="image" src="https://github.com/user-attachments/assets/a3d50743-8dd7-4c44-885f-65eea82946c7" />
+
 
 ---
 
@@ -60,7 +54,12 @@ The project was completed during the **International Internship Pilot Program (I
 | Validation | 8      | 8         | 16    |
 
 ### 📊 Class Distribution Visualization
-![Class Distribution](images/class_distribution.png)
+<img width="797" height="609" alt="image" src="https://github.com/user-attachments/assets/9b531417-a9b2-4563-b164-bb60feefbbe3" />
+### 
+<img width="787" height="590" alt="image" src="https://github.com/user-attachments/assets/2dc94b58-7d70-4775-8548-c3023cb35848" />
+### 
+<img width="774" height="601" alt="image" src="https://github.com/user-attachments/assets/8ce22dea-a156-44cc-8c33-b693fa69038a" />
+
 
 ---
 
@@ -94,7 +93,8 @@ This prevents model bias toward the majority class.
 - Sigmoid activation for binary classification
 
 #### 📉 Training Performance (CNN from Scratch)
-![CNN Training Curve](images/cnn_training_curve.png)
+<img width="589" height="878" alt="image" src="https://github.com/user-attachments/assets/7ee0947f-2a2b-4e8f-9a5a-ac02cb9a6a06" />
+
 
 ---
 
@@ -105,7 +105,8 @@ This prevents model bias toward the majority class.
 - Fine-tuned with low learning rate
 
 #### 📉 Training Performance (ResNet50)
-![ResNet50 Training Curve](images/resnet_training_curve.png)
+<img width="565" height="878" alt="image" src="https://github.com/user-attachments/assets/46dce076-f296-4069-ba72-8ff1250de55d" />
+
 
 ---
 
